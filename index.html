@@ -1,114 +1,159 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
-<head> 
- 
- <link rel="stylesheet" href="style.css">
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Plataforma de Criação de Eventos - Projete e gerencie eventos físicos, virtuais ou híbridos com facilidade." />
-  <title>Plataforma de Criação de Eventos</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-    }
-  </style>
-</head>
-<body class="bg-gray-100 text-gray-900">
-  <header class="bg-black-600 text-white p-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Organizador de Eventos 3D</h1>
-      <nav>
-        <ul class="flex space-x-4">
-          <li><a class="hover:underline" href="#">Início</a></li>
-          <li><a class="hover:underline" href="#">Sobre</a></li>
-          <li><a class="hover:underline" href="#">Serviços</a></li>
-          <li><a class="hover:underline" href="#">Contato</a></li>
-        </ul>
-      </nav>
-      <div class="flex items-center space-x-4">
-        <a class="text-gray-200 hover:text-gray-100" href="#">Entrar</a>
-        <a class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600" href="#">Cadastre-se</a>
-      </div>
-    </div>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Plataforma de Ensino Interativo
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="font-roboto bg-gray-100">
+  <header class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-bold">
+     Plataforma de Ensino Interativo
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="#">
+        Início
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Sobre
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Recursos
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Contato
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
   </header>
-  <!-- Conteúdo Principal -->
-  <main class="container mx-auto px-6 py-10">
-    <section class="text-center">
-      <h1 class="text-4xl font-bold mb-4">Crie o Seu Evento Perfeito</h1>
-      <p class="text-lg text-gray-700 mb-8">Projete e gerencie seus eventos com facilidade, sejam eles físicos, virtuais ou híbridos.</p>
-      <a class="px-6 py-3 bg-green-500 text-white rounded hover:bg-green-600" href="#">Comece Agora</a>
-    </section>
-    <section class="mt-16">
-      <h2 class="text-3xl font-bold mb-6">Como Funciona</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-lg shadow">
-          <img alt="Passo 1: Criar Evento" src="https://placehold.co/300x200?text=Passo+1&bg=1DB954&text_color=FFFFFF" />
-          <h3 class="text-xl font-semibold mt-4">Criar Evento</h3>
-          <p class="text-gray-700 mt-2">Comece criando seu evento e escolhendo o layout do espaço em 3D.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow">
-          <img alt="Passo 2: Adicionar Detalhes" src="https://placehold.co/300x200?text=Passo+2&bg=1DB954&text_color=FFFFFF" />
-          <h3 class="text-xl font-semibold mt-4">Adicionar Detalhes</h3>
-          <p class="text-gray-700 mt-2">Adicione detalhes como palcos, estandes, mesas, cadeiras e decoração.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow">
-          <img alt="Passo 3: Escolher Local" src="https://placehold.co/300x200?text=Passo+3&bg=1DB954&text_color=FFFFFF" />
-          <h3 class="text-xl font-semibold mt-4">Escolher Local</h3>
-          <p class="text-gray-700 mt-2">Escolha se o evento será realizado em um espaço físico disponibilizado por nós ou no local de sua escolha.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow">
-          <img alt="Passo 4: Serviços Adicionais" src="https://placehold.co/300x200?text=Passo+4&bg=1DB954&text_color=FFFFFF" />
-          <h3 class="text-xl font-semibold mt-4">Serviços Adicionais</h3>
-          <p class="text-gray-700 mt-2">Oferecemos serviços adicionais como decoração, iluminação e catering para garantir que o design seja recriado fielmente.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow">
-          <img alt="Passo 5: Experiência Híbrida" src="https://placehold.co/300x200?text=Passo+5&bg=1DB954&text_color=FFFFFF" />
-          <h3 class="text-xl font-semibold mt-4">Experiência Híbrida</h3>
-          <p class="text-gray-700 mt-2">Permita que alguns participantes do evento participem virtualmente, enquanto outros estejam presentes fisicamente.</p>
-        </div>
-      </div>
-    </section>
-    <section class="mt-16">
-      <h2 class="text-3xl font-bold mb-6">Nossos Serviços</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-lg shadow">
-          <img alt="Serviço 1: Decoração" src="https://placehold.co/300x200?text=Serviço+1&bg=1DB954&text_color=FFFFFF" />
-          <h3 class="text-xl font-semibold mt-4">Decoração</h3>
-          <p class="text-gray-700 mt-2">Serviços de decoração profissional para deixar seu evento deslumbrante.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow">
-          <img alt="Serviço 2: Iluminação" src="https://placehold.co/300x200?text=Serviço+2&bg=1DB954&text_color=FFFFFF" />
-          <h3 class="text-xl font-semibold mt-4">Iluminação</h3>
-          <p class="text-gray-700 mt-2">Soluções de iluminação especializadas para criar a atmosfera perfeita.</p>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow">
-          <img alt="Serviço 3: Catering" src="https://placehold.co/300x200?text=Serviço+3&bg=1DB954&text_color=FFFFFF" />
-          <h3 class="text-xl font-semibold mt-4">Catering</h3>
-          <p class="text-gray-700 mt-2">Opções de catering deliciosas para satisfazer seus convidados.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-  <!-- Rodapé -->
-  <footer class="bg-gray-800 text-white py-6 mt-16">
-    <div class="container mx-auto px-6">
-      <div class="flex justify-between items-center">
-        <div>
-          <img alt="Logotipo da Empresa" src="https://placehold.co/150x50?text=Logo&bg=1DB954&text_color=FFFFFF" />
-        </div>
-        <div class="space-x-4">
-          <a class="hover:text-gray-400" href="#">Política de Privacidade</a>
-          <a class="hover:text-gray-400" href="#">Termos de Serviço</a>
-          <a class="hover:text-gray-400" href="#">Contate-Nos</a>
-        </div>
-      </div>
-      <div class="mt-4 text-center">
-        <p>© 2023 Plataforma de Criação de Eventos. Todos os direitos reservados.</p>
-      </div>
+  <main class="container mx-auto p-4">
+   <section class="text-center my-8">
+    <h2 class="text-3xl font-bold mb-4">
+     Bem-vindo à nossa Plataforma
+    </h2>
+    <p class="text-lg mb-6">
+     Uma plataforma interativa projetada para crianças com deficiência, oferecendo recursos educacionais acessíveis e divertidos.
+    </p>
+    <img alt="Imagem de crianças interagindo com uma plataforma educacional em um tablet" class="mx-auto rounded-lg shadow-lg" src="ChatGPT Image 16 de abr. de 2025, 16_26_26"/>
+   </section>
+   <section class="my-8">
+    <h2 class="text-2xl font-bold mb-4">
+     Recursos
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <div class="bg-white p-4 rounded-lg shadow-lg">
+      <img alt="Imagem de um jogo educativo colorido" class="w-full h-48 object-cover rounded-lg mb-4" src="https://placehold.co/300x200"/>
+      <h3 class="text-xl font-bold mb-2">
+       Jogos Educativos
+      </h3>
+      <p>
+       Jogos interativos que ajudam no desenvolvimento cognitivo e motor das crianças.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-lg">
+      <img alt="Imagem de uma criança assistindo a um vídeo educativo" class="w-full h-48 object-cover rounded-lg mb-4" src="https://placehold.co/300x200"/>
+      <h3 class="text-xl font-bold mb-2">
+       Vídeos Educativos
+      </h3>
+      <p>
+       Vídeos divertidos e educativos que ensinam conceitos básicos de forma lúdica.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-lg">
+      <img alt="Imagem de uma criança usando um aplicativo de leitura" class="w-full h-48 object-cover rounded-lg mb-4" src="https://placehold.co/300x200"/>
+      <h3 class="text-xl font-bold mb-2">
+       Leitura Interativa
+      </h3>
+      <p>
+       Histórias interativas que incentivam a leitura e a compreensão de texto.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-lg">
+      <img alt="Imagem de uma criança fazendo uma atividade de arte" class="w-full h-48 object-cover rounded-lg mb-4" src="https://placehold.co/300x200"/>
+      <h3 class="text-xl font-bold mb-2">
+       Atividades de Arte
+      </h3>
+      <p>
+       Atividades criativas que estimulam a expressão artística e a coordenação motora.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-lg">
+      <img alt="Imagem de uma criança aprendendo matemática com um aplicativo" class="w-full h-48 object-cover rounded-lg mb-4" src="https://placehold.co/300x200"/>
+      <h3 class="text-xl font-bold mb-2">
+       Matemática Divertida
+      </h3>
+      <p>
+       Jogos e atividades que tornam o aprendizado da matemática divertido e envolvente.
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-lg">
+      <img alt="Imagem de uma criança aprendendo ciências com um experimento" class="w-full h-48 object-cover rounded-lg mb-4" src="https://placehold.co/300x200"/>
+      <h3 class="text-xl font-bold mb-2">
+       Experimentos Científicos
+      </h3>
+      <p>
+       Experimentos simples e seguros que despertam o interesse pela ciência.
+      </p>
+     </div>
     </div>
+   </section>
+   <section class="my-8">
+    <h2 class="text-2xl font-bold mb-4">
+     Depoimentos
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <div class="bg-white p-4 rounded-lg shadow-lg">
+      <img alt="Foto de perfil de uma mãe sorridente" class="w-24 h-24 object-cover rounded-full mx-auto mb-4" src="https://placehold.co/100x100"/>
+      <p class="text-center">
+       "Esta plataforma tem sido incrível para o desenvolvimento do meu filho. Ele adora os jogos educativos!"
+      </p>
+      <p class="text-center font-bold mt-2">
+       - Maria Silva
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-lg">
+      <img alt="Foto de perfil de um pai sorridente" class="w-24 h-24 object-cover rounded-full mx-auto mb-4" src="https://placehold.co/100x100"/>
+      <p class="text-center">
+       "Os vídeos educativos são muito bem feitos e minha filha aprende muito com eles."
+      </p>
+      <p class="text-center font-bold mt-2">
+       - João Pereira
+      </p>
+     </div>
+     <div class="bg-white p-4 rounded-lg shadow-lg">
+      <img alt="Foto de perfil de uma mãe sorridente" class="w-24 h-24 object-cover rounded-full mx-auto mb-4" src="https://placehold.co/100x100"/>
+      <p class="text-center">
+       "As atividades de arte são as favoritas do meu filho. Ele adora criar e se expressar."
+      </p>
+      <p class="text-center font-bold mt-2">
+       - Ana Costa
+      </p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2023 Plataforma de Ensino Interativo. Todos os direitos reservados.
+    </p>
+   </div>
   </footer>
-</body>
+ </body>
 </html>
